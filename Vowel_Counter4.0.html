@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel_Counter4.0</title>
+    <link rel="stylesheet" href="Vowel_Counter4.0.css">
+</head>
+<body>
+    
+    <h1 id="heading" class="heading">Occurence Counter</h1>
+<fieldset>
+<legend>
+<p>Enter your sentences here:</p>
+</legend>
+<textarea id="text" class="text" rows="8" placeholder="Please type your Sentences here"></textarea>
+
+<fieldset class="content" id="content">
+    <legend>
+        All count data:
+    </legend>
+    <div id="output" class="output">
+        <div class="allCharacters" id="allCharacters"></div>
+        <div class="outputVowel" id="outputVowel"></div>
+        <div class="outputConsonant" id="outputConsonant"></div>
+        <div class="outputCharacter" id="outputCharacter"></div>
+    </div>
+    <div class="otherDetails" id="otherDetails">
+        <fieldset>
+            <legend>
+                Other Details:
+            </legend>
+            <div class="individualVowel" id="individualVowel"></div>
+        </fieldset>
+    </div>
+</fieldset>
+  </fieldset>
+  <button id="refresh" class="refresh" onclick="RefreshThis()">Refresh</button>
+
+</body>
+<script src="Vowel_Counter4.0.js"></script>
+</html>

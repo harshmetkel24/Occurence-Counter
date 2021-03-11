@@ -1,0 +1,73 @@
+*{
+    background-color: rgb(22, 142, 146);
+    color:black;
+  }
+
+  .heading
+  {
+    margin-left: 15px;
+    padding: 5PX;
+    border: 2px solid black;
+    text-shadow:1px 1px rgb(14, 18, 223);
+    font-size: 90px;
+    text-align:center;
+  }
+
+  .text
+  {
+    min-width: 95%;
+    min-height: initial;
+    max-height: 100%;
+    border: 2px solid black;
+    margin-left:5px;
+    margin-right: 2px;
+  }
+
+  .content
+  {
+    visibility:hidden;
+    margin:5px;
+  }
+
+.output
+{
+  margin:2px;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+legend
+{
+  border: 1px solid black;
+  border-radius:10px;
+  margin-bottom:3px;
+}
+
+.refresh
+{
+  margin-top: 15px;
+  margin-left: 3px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
+.allCharacters, .outputVowel, .outputConsonant, .outputCharacter
+{
+    background-color: silver;
+    color: black;
+    padding: 10px;
+    padding-right: 10vw;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.otherDetails
+{
+  float: right;
+  width: 50vw;
+  height: fit-content;
+}
